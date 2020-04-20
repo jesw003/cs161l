@@ -1,23 +1,25 @@
 `timescale 1ns / 1ps
-/////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    15:22:59 04/19/2020 
+// Design Name: 
+// Module Name:    fixedToFloat 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
 module fixedToFloat(
-  input wire clk, 
-  input wire rst , 
-  input wire[31:0] targetnumber, 
-  input wire[4:0] fixpointpos , 
-  output wire[31:0] result );
-
-wire [31:0] floatresult ; 
-
-// Your  Implementation 
+    );
 
 
-// -------------------------------------------	
-// Register the results 
-// -------------------------------------------
-
-always @ ( posedge clk ) begin 
-    result <= floatresult ;
-end 
 endmodule
